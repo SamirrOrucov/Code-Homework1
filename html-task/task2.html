@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th,tr,td{
+            border: 1px solid black; 
+            padding: 10px;
+        }
+        table{
+            border: 5px solid black; 
+            border-top: 10px solid black;
+            border-bottom: 10px solid black;
+            border-collapse: collapse;
+
+
+
+        }
+        th{
+            background-color: rgb(71, 161, 48);
+            color: aliceblue;
+        }
+        .diff{
+            background-color:rgba(236,236,216,255);
+        }
+        img{
+            width: 30px;height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav></nav>
+    <main>
+        <section>
+            <table>
+                <tr >
+                    <th>Contact name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Is Promoted</th>
+                </tr>
+                <tr>
+                    <td>Samir Orucov</td>
+                    <td>Baku</td>
+                    <td><img src="https://cdn.britannica.com/14/4714-050-208C0B4A/Flag-Azerbaijan.jpg" alt="Azerbaijan National Flag"> Azerbaijan</td>
+                    <td><input type="checkbox" name="Is Promoted" id=""></td>
+                </tr>
+                <tr class="diff">
+                    <td>Maria Zaxarova</td>
+                    <td>Moscov</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg" alt="Russia National Flag">Russia</td>
+                    <td><input type="checkbox" name="Is Promoted" id=""></td>
+                </tr>
+                <tr>
+                    <td>Eduardo Sanchez</td>
+                    <td>Barcelona</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg" alt="Spain"> Spain</td>
+                    <td><input type="checkbox" name="Is Promoted" id=""></td>
+                </tr>
+                <tr class="diff">
+                    <td>Jhui Chan</td>
+                    <td>Seoul</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_South_Korea.png" alt="South Korea National Flag">South Korea</td>
+                    <td><input type="checkbox" name="Is Promoted" id=""></td>
+                </tr>
+                <tr>
+                    <td>Jhon Walker</td>
+                    <td>Los Angeles</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/US_flag_51_stars.svg" alt="National FLag of United States">USA</td>
+                    <td><input type="checkbox" name="Is Promoted" id=""></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
